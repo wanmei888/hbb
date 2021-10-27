@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.min.css">
+    <link rel="stylesheet" href="css/style.min.css.map">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css.map">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <header id="header" class="header">
+        <div class="container">
+            <div class="header__inner">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="#"><img class="logo" src="img/logo.png" alt="logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse header__menu" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Menu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contacs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Feedbacks</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Eng</a>
+                                <ul class="dropdown-menu  header__dropdown" aria-labelledby="navbarDropdownMenuLink">
+                                    <li>
+                                        <a class="dropdown-item" href="#">Rus</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Cart</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="video" class="video">
+            <div class="video__inner">
+                <video class="video__item" preload="auto" poster="img/logo.png" controls autoplay loop muted>
+						<source src="video/Santa Hat Cupcakes Recipe.webm" type="video/webm">
+						<source src="video/Santa Hat Cupcakes Recipe.mp4" type="video/mp4">
+				    </video>
+                <div class="video__content">
+                    <div class="video__container">
+                        <p class="video__text">
+                            Whole Wheat Cakes
+                        </p>
+                        <p class="video__subtext">
+                            Delicious. Healthy. Handmade by Mira
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="about">
+            <div class="container">
+                <h1>Our Best Sellers</h1>
+                <div class="about__inner">
+                    <div class="about__text">
+                        <h1 class="about__title">Healthy handmade cakes has everything you ever asked for in a dessert: all the goodness but none of the sugar or unnecessary fats.You’ll love it because it’s:</h1>
+                    </div>
+                    <div class="row about__columns">
+                        <div class="col">
+                            <p><i class="fas fa-check-circle"></i>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, pariatur!</p>
+                            <p><i class="fas fa-check-circle"></i>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, pariatur!</p>
+                            <p><i class="fas fa-check-circle"></i>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, pariatur!</p>
+                        </div>
+                        <div class="col"><img src="./img/cake.png" alt="green-cake"></div>
+                        <div class="col">
+                            <p><i class="fas fa-check-circle"></i>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, pariatur!</p>
+                            <p><i class="fas fa-check-circle"></i>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, pariatur!</p>
+                            <p><i class="fas fa-check-circle"></i>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, pariatur!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="catalog">
+            <div class="container">
+                <h1>Our Best Sellers</h1>
+                <div class="catalog__inner">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col catalog__col">
+                                        <img src="./img/chocolateCake.jpg" class="w-80" alt="chocolateCake">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>First slide label</h5>
+                                            <p>Some representative placeholder content for the first slide.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col catalog__col">
+                                        <img src="./img/chocolateCake.jpg" class="w-80" alt="chocolateCake">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>First slide label</h5>
+                                            <p>Some representative placeholder content for the first slide.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col catalog__col">
+                                        <img src="./img/chocolateCake.jpg" class="w-80" alt="chocolateCake">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>First slide label</h5>
+                                            <p>Some representative placeholder content for the first slide.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col catalog__col">
+                                        <img src="./img/chocolateCake.jpg" class="w-80" alt="chocolateCake">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>First slide label</h5>
+                                            <p>Some representative placeholder content for the first slide.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col catalog__col">
+                                        <img src="./img/chocolateCake.jpg" class="w-80" alt="chocolateCake">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>First slide label</h5>
+                                            <p>Some representative placeholder content for the first slide.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col catalog__col">
+                                        <img src="./img/chocolateCake.jpg" class="w-80" alt="chocolateCake">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>First slide label</h5>
+                                            <p>Some representative placeholder content for the first slide.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col catalog__col">
+                                        <img src="./img/chocolateCake.jpg" class="w-100" alt="chocolateCake">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>First slide label</h5>
+                                            <p>Some representative placeholder content for the first slide.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col catalog__col">
+                                        <img src="./img/chocolateCake.jpg" class="w-100" alt="chocolateCake">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>First slide label</h5>
+                                            <p>Some representative placeholder content for the first slide.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col catalog__col">
+                                        <img src="./img/chocolateCake.jpg" class="w-100" alt="chocolateCake">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>First slide label</h5>
+                                            <p>Some representative placeholder content for the first slide.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                         </button>
+                    </div>
+                    <button type="button" class="btn btn-secondary">Secondary</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="cart.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js.map"></script>
+</body>
+
+</html>
