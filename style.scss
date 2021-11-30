@@ -108,14 +108,114 @@
     }
 }
 
-.catalog {
-    margin-top: 80px;
+.carousel-inner {
+    width: 800px;
+    margin: 0 auto;
     h1 {
+        font-family: 'Roboto Slab', serif;
+        font-size: 25px;
         text-align: center;
-        font-family: 'Cormorant', serif;
-        padding: 20px;
+        color: #808282;
     }
-    &__col img {
-        width: 300px;
+    .carousel-indicators {
+        bottom: -180px;
+    }
+}
+
+.best {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feedbacks {
+    margin-top: 5%;
+    .feedbacks__inner {
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        img {
+            padding-top: 1rem;
+            width: 8rem;
+            margin: 0 auto;
+        }
+        .card {
+            background-color: #F8EFE3;
+            border-radius: 10%;
+        }
+    }
+}
+
+.order {
+    width: 100%;
+    height: 22rem;
+    background-image: url(/img/order-banner.png);
+    //  background-color: #F8EFE3;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 4rem;
+    &__inner {
+        margin: auto;
+        max-width: 900px;
+        height: 22rem;
+        position: relative;
+        padding: 20px;
+        padding-top: 2rem;
+        border: 1px solid;
+        h4 {
+            font-family: 'Cormorant', serif;
+            color: #fff;
+            font-size: 2.5rem;
+            line-height: 1.5;
+            padding-bottom: 1rem;
+            text-align: center;
+        }
+    }
+    &__form {
+        position: relative;
+        margin: 32px 0;
+        .form-field {
+            position: relative;
+            margin: 20px 0;
+        }
+        .input-text {
+            display: block;
+            width: 100%;
+            height: 36px;
+            font-size: 18px;
+            border-width: 0 0 2px 0;
+            border-color: green;
+            line-height: 26px;
+            font-weight: 400;
+            padding: 10px;
+        }
+        .input-text:focus {
+            outline: none;
+        }
+        .label {
+            // display: inline-block;
+            position: absolute;
+            left: 20px;
+            bottom: 30px;
+            font-size: 25px;
+            font-weight: 500;
+            color: #383634f6;
+            font-family: 'Cormorant', serif;
+            text-transform: capitalize;
+            transition: transform 0.2s ease-in-out;
+        }
+        .submit-btn {
+            display: flex;
+            justify-content: center;
+            display: inline-block;
+            text-transform: uppercase;
+            color: #fff;
+            font-size: 16px;
+            border: none;
+            padding: 8px 18px;
+            cursor: pointer;
+            background-color: rgb(95, 119, 84);
+        }
     }
 }
